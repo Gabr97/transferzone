@@ -139,6 +139,12 @@
     .price-card {
         max-width: 30%;
     }
+    .price-card:nth-of-type(3) {
+        height: fit-content !important;
+    }
+    #security b {
+        font-size: small;
+    }
 }
 
 @media(max-width:768px) {
@@ -182,4 +188,5 @@
     #security b {
         font-size: x-small;
     }
+ 
 }
